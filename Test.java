@@ -14,5 +14,6 @@ public class Test
     System.out.println(cuenta01.obtenerCuenta());
     System.out.println(cuenta01.estado());
     System.out.println(cuenta01.obtenerTipoDeInteres());
+    //Println deja un salto de linea y print no
   }
 }
