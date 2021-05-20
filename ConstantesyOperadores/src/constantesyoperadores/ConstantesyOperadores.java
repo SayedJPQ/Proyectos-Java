@@ -14,6 +14,10 @@ public class ConstantesyOperadores {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        final double apulgadas = 2.54;
+        double cm = 6;
+        double resultado = cm/apulgadas;
+        //Al usar final no se puede cambiar el valor mas adelante
         int a = 5;
         int b;
         b = 7;
@@ -22,6 +26,7 @@ public class ConstantesyOperadores {
         c+=6;//Variante de incremento
         c-=2;//Decremento variante
         System.out.println("El resultado de c es: " + c);
+        System.out.println("En " + cm + "cm hay " + resultado + "pulgadas");
     }
     
 }

@@ -2,7 +2,7 @@ class Cuentas
 {
   private String nombre;
   private String cuenta;
-  private double saldo;
+  public double saldo;
   private double tipoDeInteres;
 //Codigo con constructores
   public Cuentas(){System.out.println("Objeto iniciado con constructor sin parametros");}//Contructor sin parametros
